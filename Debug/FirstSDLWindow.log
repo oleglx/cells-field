@@ -1,0 +1,12 @@
+﻿  Main.cpp
+Main.obj : error LNK2019: ссылка на неразрешенный внешний символ _SDL_CreateWindow в функции "int __cdecl SDL_main(int,int * * const)" (?SDL_main@@YAHHQAPAH@Z)
+Main.obj : error LNK2019: ссылка на неразрешенный внешний символ _SDL_CreateRenderer в функции "int __cdecl SDL_main(int,int * * const)" (?SDL_main@@YAHHQAPAH@Z)
+Main.obj : error LNK2019: ссылка на неразрешенный внешний символ _SDL_SetRenderDrawColor в функции "int __cdecl SDL_main(int,int * * const)" (?SDL_main@@YAHHQAPAH@Z)
+Main.obj : error LNK2019: ссылка на неразрешенный внешний символ _SDL_RenderClear в функции "int __cdecl SDL_main(int,int * * const)" (?SDL_main@@YAHHQAPAH@Z)
+Main.obj : error LNK2019: ссылка на неразрешенный внешний символ _SDL_RenderPresent в функции "int __cdecl SDL_main(int,int * * const)" (?SDL_main@@YAHHQAPAH@Z)
+Main.obj : error LNK2019: ссылка на неразрешенный внешний символ _SDL_Delay в функции "int __cdecl SDL_main(int,int * * const)" (?SDL_main@@YAHHQAPAH@Z)
+Main.obj : error LNK2019: ссылка на неразрешенный внешний символ _SDL_Init в функции "int __cdecl SDL_main(int,int * * const)" (?SDL_main@@YAHHQAPAH@Z)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: ссылка на неразрешенный внешний символ _main в функции "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+D:\Programming\SDL2\lib\x64\SDL2.lib : warning LNK4272: тип компьютера библиотеки "x64" конфликтует с типом целевого компьютера "x86"
+D:\Programming\SDL2\lib\x64\SDL2main.lib : warning LNK4272: тип компьютера библиотеки "x64" конфликтует с типом целевого компьютера "x86"
+D:\Programming\SDLProjects\FirstSDLWindow\Debug\FirstSDLWindow.exe : fatal error LNK1120: неразрешенных внешних элементов: 8
